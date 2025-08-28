@@ -1,0 +1,8 @@
+[32m2025-08-28 08:35:18 -0500[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 5b85286b-30b5-4728-9558-87cea6ca05c3 - 21892 - LOGS_CAPTURED - Started capturing logs in process (pid: 21892).
+[32m2025-08-28 08:35:18 -0500[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 5b85286b-30b5-4728-9558-87cea6ca05c3 - 21892 - car_data_file - STEP_START - Started execution of step "car_data_file".
+[32m2025-08-28 08:35:18 -0500[0m - dagster - [34mINFO[0m - __ASSET_JOB - 5b85286b-30b5-4728-9558-87cea6ca05c3 - car_data_file - Saving car data to data/car_file_origin.csv
+[32m2025-08-28 08:35:18 -0500[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 5b85286b-30b5-4728-9558-87cea6ca05c3 - 21892 - car_data_file - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
+[32m2025-08-28 08:35:18 -0500[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 5b85286b-30b5-4728-9558-87cea6ca05c3 - car_data_file - Writing file at: /home/sena/analysis/CAR_ETL/pipeline_car/.tmp_dagster_home__r75o8ud/storage/car_data_file using PickledObjectFilesystemIOManager...
+[32m2025-08-28 08:35:18 -0500[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 5b85286b-30b5-4728-9558-87cea6ca05c3 - 21892 - car_data_file - ASSET_MATERIALIZATION - Materialized value car_data_file.
+[32m2025-08-28 08:35:18 -0500[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 5b85286b-30b5-4728-9558-87cea6ca05c3 - 21892 - car_data_file - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+[32m2025-08-28 08:35:18 -0500[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 5b85286b-30b5-4728-9558-87cea6ca05c3 - 21892 - car_data_file - STEP_SUCCESS - Finished execution of step "car_data_file" in 324ms.

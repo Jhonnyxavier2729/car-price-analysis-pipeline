@@ -1,0 +1,16 @@
+[32m2025-08-28 08:35:23 -0500[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 5b85286b-30b5-4728-9558-87cea6ca05c3 - 22074 - LOGS_CAPTURED - Started capturing logs in process (pid: 22074).
+[32m2025-08-28 08:35:23 -0500[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 5b85286b-30b5-4728-9558-87cea6ca05c3 - 22074 - data_cleaned - STEP_START - Started execution of step "data_cleaned".
+[32m2025-08-28 08:35:23 -0500[0m - dagster - [34mINFO[0m - __ASSET_JOB - 5b85286b-30b5-4728-9558-87cea6ca05c3 - data_cleaned - loading data final...
+[32m2025-08-28 08:35:23 -0500[0m - dagster - [34mINFO[0m - __ASSET_JOB - 5b85286b-30b5-4728-9558-87cea6ca05c3 - data_cleaned - After dropping rows with empty 'price':   normalized-losses         make fuel-type  ... city-mpg highway-mpg  price
+0                 ?  alfa-romero       gas  ...       21          27  13495
+1                 ?  alfa-romero       gas  ...       21          27  16500
+2                 ?  alfa-romero       gas  ...       19          26  16500
+3               164         audi       gas  ...       24          30  13950
+4               164         audi       gas  ...       18          22  17450
+
+[5 rows x 25 columns]
+[32m2025-08-28 08:35:23 -0500[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 5b85286b-30b5-4728-9558-87cea6ca05c3 - 22074 - data_cleaned - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
+[32m2025-08-28 08:35:23 -0500[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 5b85286b-30b5-4728-9558-87cea6ca05c3 - data_cleaned - Writing file at: /home/sena/analysis/CAR_ETL/pipeline_car/.tmp_dagster_home__r75o8ud/storage/data_cleaned using PickledObjectFilesystemIOManager...
+[32m2025-08-28 08:35:23 -0500[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 5b85286b-30b5-4728-9558-87cea6ca05c3 - 22074 - data_cleaned - ASSET_MATERIALIZATION - Materialized value data_cleaned.
+[32m2025-08-28 08:35:23 -0500[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 5b85286b-30b5-4728-9558-87cea6ca05c3 - 22074 - data_cleaned - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+[32m2025-08-28 08:35:23 -0500[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 5b85286b-30b5-4728-9558-87cea6ca05c3 - 22074 - data_cleaned - STEP_SUCCESS - Finished execution of step "data_cleaned" in 146ms.
