@@ -5,7 +5,7 @@ Este proyecto contiene un pipeline de datos de extremo a extremo para procesar y
 ## DAG del Pipeline
 
 
-![image_973a52.png]()
+![image_973a52.png](https://github.com/Jhonnyxavier2729/car-price-analysis-pipeline/blob/main/pipeline_car/images/DAG.png)
 
 ## Fases del Pipeline
 
