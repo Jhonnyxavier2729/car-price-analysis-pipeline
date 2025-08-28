@@ -1,0 +1,27 @@
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Archivos de configuración locales
+*.env
+
+# Archivos de datos
+data/
+*.csv
+*.xlsx
+*.parquet
+
+# Archivos temporales o de logs
+*.log
+*.tmp
+
+# Configuración de IDEs/editores
+.vscode/
+.idea/
+*.swp
