@@ -25,3 +25,8 @@ data/
 .vscode/
 .idea/
 *.swp
+
+# Archivos y logs de Dagster
+storage/
+history/
+schedules/
