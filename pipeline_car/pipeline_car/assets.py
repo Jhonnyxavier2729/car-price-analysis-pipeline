@@ -107,4 +107,4 @@ def split_data_mark(context:dg.AssetExecutionContext, data_cleaned:pd.DataFrame)
         group_df.to_csv(file_path, index=False)
         context.log.info(f"Archivo guardado: {file_path}")
 
-    return f"Se crearon {len(grouped_by_make)} archivos CSV en la carpeta '{output_folders}'."
+    return (f"Se crearon {len(grouped_by_make)} archivos CSV en la carpeta '{output_folders}'.")
